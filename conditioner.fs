@@ -1,7 +1,7 @@
 //abc174_a conditioner.fs
 
 ####################################
-sopen System
+open System
 
 let checkString () =
     Console.ReadLine()
