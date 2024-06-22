@@ -28,7 +28,7 @@
 ```
 ---
 ```
-
+let X = stdin.ReadLine() |> int
 ```
 ---
 ```
