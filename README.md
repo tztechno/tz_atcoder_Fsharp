@@ -24,7 +24,7 @@
 ```
 ---
 ```
-
+let mutable result = "Christmas"
 ```
 ---
 ```
