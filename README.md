@@ -20,7 +20,18 @@
 ```
 ---
 ```
-
+open System
+let checkString () =
+    let input = Console.ReadLine().Trim() 
+    let result =
+        match input with
+        | "A" -> "T"
+        | "T" -> "A"
+        | "C" -> "G"
+        | "G" -> "C"
+        | _ -> "Invalid input"
+    printfn "%s" result
+checkString ()
 ```
 ---
 ```
